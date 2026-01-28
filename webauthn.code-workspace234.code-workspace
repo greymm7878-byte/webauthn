@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "webauthn: issue-2373-android-key-test-vectors",
+			"path": "../webauthn.worktrees/issue-2373-android-key-test-vectors"
+		}
+	],
+	"settings": {
+		"CodeGPT.apiKey": "Ollama",
+		"mcp": {
+			"servers": {
+				"io.github.ChromeDevTools/chrome-devtools-mcp": {
+					"type": "stdio",
+					"command": "npx",
+					"args": [
+						"chrome-devtools-mcp@0.13.0"
+					],
+					"gallery": "https://api.mcp.github.com",
+					"version": "0.13.0"
+				}
+			},
+			"inputs": []
+		},
+		"workbench.editor.enablePreviewFromCodeNavigation": false,
+		"workbench.editor.enablePreviewFromQuickOpen": true,
+		"workbench.editor.showTabs": "single",
+		"workbench.editor.splitInGroupLayout": "vertical",
+		"workbench.editor.splitSizing": "distribute",
+		"workbench.editor.tabActionLocation": "left",
+		"workbench.editor.showTabIndex": true,
+		"workbench.editor.titleScrollbarSizing": "large",
+		"workbench.editor.titleScrollbarVisibility": "visible",
+		"workbench.editor.untitled.labelFormat": "name",
+		"workbench.editor.wrapTabs": true,
+		"workbench.settings.alwaysShowAdvancedSettings": true,
+		"workbench.settings.editor": "json",
+		"workbench.settings.openDefaultKeybindings": true,
+		"workbench.settings.openDefaultSettings": true,
+		"workbench.settings.settingsSearchTocBehavior": "hide",
+		"zenMode.hideActivityBar": false,
+		"zenMode.fullScreen": false,
+		"liveServer.settings.multiRootWorkspaceName": "webauthn: issue-2373-android-key-test-vectors"
+	},
+	"extensions": {
+		"recommendations": [
+			"kie-group.extended-services-vscode-extension"
+		]
+	}
+}
