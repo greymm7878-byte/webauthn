@@ -8489,7 +8489,8 @@ This section registers the below-listed [=extension identifier=] values, newly d
 ## Well-Known URI Registration
 
 This section registers the following well-known URI in the
-IANA "Well-Known URIs" registry [[!IANA-Well-Known-URIs]].
+IANA "Well-Known URIs" registry [[!IANA-Well-Known-URIs]]
+established by [[RFC5785]].
 
 - URI Suffix: <code>webauthn</code>
 - Reference: Section [[#sctn-validating-relation-origin]] of this specification
